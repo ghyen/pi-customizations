@@ -1,0 +1,19 @@
+{
+  "presets": {
+    "muse-spark": {
+      "provider": "opencode-go",
+      "model": "muse-spark-1.3-contributor",
+      "thinkingLevel": "medium"
+    }
+  },
+  "recap": {
+    "provider": "opencode-go",
+    "model": "hy3",
+    "thinkingLevel": "off"
+  },
+  "title": {
+    "provider": "opencode-go",
+    "model": "hy3",
+    "thinkingLevel": "off"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "lastChangelogVersion": "0.87.1",
+  "theme": "dark",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "muse-spark-1.3-contributor",
+  "defaultThinkingLevel": "max",
+  "hideThinkingBlock": true,
+  "tuiMode": "fullscreen",
+  "fullscreenCopyOnSelect": true,
+  "modelThinkingLevels": {
+    "openai-codex/gpt-6-astra": "minimal"
+  },
+  "subagents": {
+    "defaultModel": "opencode-go/muse-spark-1.3-contributor"
+  },
+  "packages": [
+    "npm:pi-spark",
+    "npm:pi-web-access",
+    "npm:@narumitw/pi-plan-mode",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:pi-mcp-adapter",
+    "npm:@narumitw/pi-btw",
+    "npm:pi-memory",
+    "npm:pi-background-tasks",
+    "npm:@injaneity/pi-computer-use",
+    "npm:pi-subagents",
+    "npm:pi-ask-user",
+    "npm:@benvargas/pi-openai-fast"
+  ],
+  "enabledModels": [
+    "opencode-go/muse-spark-1.3-contributor",
+    "opencode-go/mimo-v2.6-flash",
+    "opencode-go/deepseek-v4.1-flash",
+    "openai-codex/gpt-6-luna",
+    "openai-codex/gpt-6-sol",
+    "openai-codex/gpt-6-astra"
+  ]
+}

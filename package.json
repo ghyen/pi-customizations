@@ -1,12 +1,12 @@
 {
   "name": "pi-customizations",
   "version": "1.0.0",
-  "description": "Personal Pi extensions and model configuration snippets",
+  "description": "Personal Pi extensions, subagents, and configuration examples",
   "type": "module",
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
   },
   "pi": {
-    "extensions": ["./extensions/response-timing.ts"]
+    "extensions": ["./extensions/*.ts"]
   }
 }

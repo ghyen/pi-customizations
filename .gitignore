@@ -1,5 +1,13 @@
 auth.json
+auth.json.*
 models.json
 models-store.json
 sessions/
+memory/
+mcp-cache.json
+mcp-npx-cache.json
+web-search-cache/
+run-history.jsonl
+trust.json
+pi-openai-fast-trace.jsonl
 *.log
