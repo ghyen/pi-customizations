@@ -9,7 +9,7 @@
 - `profile/AGENTS.md`, `profile/APPEND_SYSTEM.md` — 개인 전역 지침. 다른 환경에 적용하기 전에 내용을 검토하세요.
 - `config/settings.json.example` — 현재 모델 선택, thinking 기본값, npm package 선언 등의 예시.
 - `config/enabled-models.json` — MiMo-V2.6-Flash와 DeepSeek V4.1 Flash 선택 ID.
-- `config/spark.json`, `config/web-search.json`, `config/pi-openai-fast.json` — 관련 package 설정.
+- `config/spark.json`, `config/web-search.json` — 관련 package 설정.
 
 ## 확장 설치
 
@@ -30,7 +30,6 @@ pi update --extensions
 - `profile/AGENTS.md`와 `profile/APPEND_SYSTEM.md` → `~/.pi/agent/`
 - `profile/agents/*.md` → `~/.pi/agent/agents/`
 - `config/spark.json`, `config/web-search.json` → `~/.pi/agent/`
-- `config/pi-openai-fast.json` → `~/.pi/agent/extensions/`
 - `config/enabled-models.json` → 기존 `settings.json`의 `enabledModels` 배열에 병합
 
 모델 ID는 대상 provider의 catalog와 인증이 있어야 선택할 수 있습니다. 각 환경에서 `/login`으로 별도 인증하세요.

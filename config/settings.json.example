@@ -24,8 +24,7 @@
     "npm:pi-background-tasks",
     "npm:@injaneity/pi-computer-use",
     "npm:pi-subagents",
-    "npm:pi-ask-user",
-    "npm:@benvargas/pi-openai-fast"
+    "npm:pi-ask-user"
   ],
   "enabledModels": [
     "opencode-go/muse-spark-1.3-contributor",

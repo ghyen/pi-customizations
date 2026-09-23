@@ -1,7 +1,0 @@
-{
-  "persistState": false,
-  "active": false,
-  "supportedModels": [
-    "openai-codex/gpt-6-luna"
-  ]
-}
