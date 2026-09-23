@@ -1,0 +1,6 @@
+{
+  "enabledModels": [
+    "opencode-go/mimo-v2.6-flash",
+    "opencode-go/deepseek-v4.1-flash"
+  ]
+}
